@@ -292,3 +292,9 @@ button:hover {
   height: 30px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 26px;
+  }
+}
