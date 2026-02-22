@@ -1,5 +1,4 @@
 import type { About } from "@/lib/portfolio-types";
-import { SectionShell } from "@/components/portfolio/section-shell";
 
 type AboutSectionProps = {
   about: About;
@@ -7,11 +6,17 @@ type AboutSectionProps = {
 
 export function AboutSection({ about }: AboutSectionProps) {
   return (
-    <SectionShell id="about" eyebrow="Profile" title="Engineering Mindset">
-      <div className="about-grid">
-        <div className="about-copy">
-          <p>{about.intro_p1}</p>
-          <p>{about.intro_p2}</p>
+    <section id="about" className="section shell">
+      <div className="about-layout">
+        <div>
+          <div className="section-head about-head">
+            <span className="section-eyebrow">Profile</span>
+            <h2>Engineering Mindset</h2>
+          </div>
+          <div className="about-copy">
+            <p>{about.intro_p1}</p>
+            <p>{about.intro_p2}</p>
+          </div>
         </div>
         <ul className="proof-list">
           {about.proof_bullets.map((proof) => (
@@ -19,6 +24,6 @@ export function AboutSection({ about }: AboutSectionProps) {
           ))}
         </ul>
       </div>
-    </SectionShell>
+    </section>
   );
 }

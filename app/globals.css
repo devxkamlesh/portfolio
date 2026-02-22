@@ -260,10 +260,15 @@ a:hover {
   color: var(--ink-soft);
 }
 
-.about-grid {
+.about-layout {
   display: grid;
   gap: 1rem;
-  grid-template-columns: 1.16fr 0.84fr;
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: start;
+}
+
+.about-head {
+  margin-bottom: 0.9rem;
 }
 
 .about-copy p {
@@ -281,7 +286,8 @@ a:hover {
 }
 
 .proof-list li {
-  margin-bottom: 0.56rem;
+  margin-bottom: 0.44rem;
+  line-height: 1.48;
   color: #375067;
 }
 
@@ -452,7 +458,7 @@ a:hover {
     grid-template-columns: 1fr;
   }
 
-  .about-grid {
+  .about-layout {
     grid-template-columns: 1fr;
   }
 
