@@ -1,0 +1,67 @@
+:root {
+  color-scheme: light;
+  --ink: #0d1d2b;
+  --muted: #425466;
+  --panel: #f2f8ff;
+  --accent: #006e8d;
+  --accent-strong: #00556d;
+  --line: #cfe0eb;
+  --line-rgb: 207 224 235;
+  --glow: #19c8a5;
+  --surface-soft: rgb(255 255 255 / 0.72);
+  --surface: rgb(255 255 255 / 0.82);
+  --surface-strong: rgb(255 255 255 / 0.9);
+  --bg-layer-1: radial-gradient(
+    1000px circle at 10% -10%,
+    rgba(12, 120, 157, 0.16),
+    transparent 46%
+  );
+  --bg-layer-2: radial-gradient(
+    720px circle at 90% 0%,
+    rgba(20, 199, 153, 0.12),
+    transparent 40%
+  );
+  --bg-layer-3: linear-gradient(180deg, #f6faff 0%, #edf5fc 54%, #edf4fb 100%);
+  --hero-gradient: radial-gradient(
+      800px circle at 10% -10%,
+      rgba(12, 120, 157, 0.18),
+      transparent 42%
+    ),
+    radial-gradient(600px circle at 85% 0%, rgba(13, 198, 152, 0.12), transparent 38%),
+    linear-gradient(180deg, #f7fbff 0%, #ecf5ff 45%, #eef5fb 100%);
+  --nav-shadow: 0 12px 28px -20px rgba(8, 32, 54, 0.55);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --ink: #e1edf9;
+  --muted: #9fb5c9;
+  --panel: #101d2b;
+  --accent: #2fa8c8;
+  --accent-strong: #86d9eb;
+  --line: #2b445c;
+  --line-rgb: 43 68 92;
+  --glow: #20d6b4;
+  --surface-soft: rgb(16 29 42 / 0.72);
+  --surface: rgb(20 33 48 / 0.82);
+  --surface-strong: rgb(15 27 40 / 0.9);
+  --bg-layer-1: radial-gradient(
+    1000px circle at 10% -12%,
+    rgba(47, 168, 200, 0.22),
+    transparent 46%
+  );
+  --bg-layer-2: radial-gradient(
+    780px circle at 92% 4%,
+    rgba(32, 214, 180, 0.16),
+    transparent 44%
+  );
+  --bg-layer-3: linear-gradient(180deg, #0a111b 0%, #0c1724 50%, #0b1421 100%);
+  --hero-gradient: radial-gradient(
+      700px circle at 8% -18%,
+      rgba(57, 177, 214, 0.24),
+      transparent 44%
+    ),
+    radial-gradient(620px circle at 90% -5%, rgba(36, 223, 182, 0.2), transparent 40%),
+    linear-gradient(180deg, #0d1a29 0%, #0e1a28 55%, #0d1825 100%);
+  --nav-shadow: 0 16px 30px -24px rgba(0, 0, 0, 0.92);
+}

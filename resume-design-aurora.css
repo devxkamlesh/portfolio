@@ -1,0 +1,64 @@
+@page {
+  size: A4;
+  margin: 10mm;
+}
+
+html,
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 9.6pt;
+  line-height: 1.25;
+  color: #162131;
+}
+
+body {
+  margin: 0;
+  border-top: 7px solid #0a7a78;
+  padding-top: 5px;
+}
+
+h1 {
+  font-size: 18pt;
+  margin: 0 0 2px;
+  color: #0e3d67;
+  letter-spacing: 0.3px;
+}
+
+h2 {
+  font-size: 10.6pt;
+  margin: 7px 0 3px;
+  color: #0a7a78;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  border-bottom: 1px solid #b7d8d6;
+  padding-bottom: 2px;
+}
+
+h3 {
+  font-size: 10pt;
+  margin: 5px 0 2px;
+  color: #0f3454;
+}
+
+p {
+  margin: 1px 0 3px;
+}
+
+ul {
+  margin: 1px 0 3px 14px;
+  padding: 0;
+}
+
+li {
+  margin: 1px 0;
+}
+
+strong {
+  color: #0f3454;
+}
+
+a,
+a:visited {
+  color: #0e3d67;
+  text-decoration: none;
+}

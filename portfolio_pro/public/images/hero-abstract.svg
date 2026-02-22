@@ -1,0 +1,26 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="60" fill="url(#paint0_linear)"/>
+  <circle cx="210" cy="180" r="160" fill="url(#paint1_radial)" fill-opacity="0.8"/>
+  <circle cx="950" cy="190" r="190" fill="url(#paint2_radial)" fill-opacity="0.7"/>
+  <path d="M120 710C240 560 400 520 560 600C720 680 870 650 1040 500" stroke="#0B3A56" stroke-opacity="0.25" stroke-width="22" stroke-linecap="round"/>
+  <rect x="108" y="116" width="330" height="190" rx="24" fill="white" fill-opacity="0.74"/>
+  <rect x="762" y="486" width="330" height="190" rx="24" fill="white" fill-opacity="0.74"/>
+  <text x="144" y="185" fill="#00556D" font-family="Arial, sans-serif" font-size="42" font-weight="700">83 Features</text>
+  <text x="144" y="236" fill="#0D1D2B" font-family="Arial, sans-serif" font-size="34">Implemented</text>
+  <text x="798" y="555" fill="#00556D" font-family="Arial, sans-serif" font-size="42" font-weight="700">19,540+</text>
+  <text x="798" y="606" fill="#0D1D2B" font-family="Arial, sans-serif" font-size="34">Open Source LOC</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="600" y1="0" x2="600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDFEFF"/>
+      <stop offset="1" stop-color="#EAF4FF"/>
+    </linearGradient>
+    <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 180) rotate(90) scale(160)">
+      <stop stop-color="#0CC697" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#0CC697" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="paint2_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(950 190) rotate(90) scale(190)">
+      <stop stop-color="#0C789D" stop-opacity="0.52"/>
+      <stop offset="1" stop-color="#0C789D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
